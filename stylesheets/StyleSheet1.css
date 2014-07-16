@@ -9,6 +9,10 @@ td{
     font-size: 18px;
 }
 
+#myTable{
+    border: none;
+} 
+
 #correct1{
     background-color: none;
 }
