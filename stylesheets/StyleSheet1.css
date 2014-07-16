@@ -17,6 +17,10 @@ td{
     border: none;
 } 
 
+#myjumbotron{
+ padding-top: 10px;   
+}
+
 #correct1{
     background-color: none;
 }
