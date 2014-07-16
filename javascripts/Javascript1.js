@@ -109,7 +109,7 @@ console.log("correct:" + correct + ", wrong1: "+ wrong1 +", wrong2: " +wrong2 +"
 //Draw Table
 if (ComposerQuizApp.questionIndex < ComposerQuizApp.items.length) {
 
-    holder = "<table>";
+    holder = "<table id="myTable">";
     // Question Row
     holder += "<tr>";
     holder += "<td>" + ComposerQuizApp.items[i].question +"</td>";
