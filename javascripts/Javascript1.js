@@ -78,6 +78,7 @@ ComposerQuizApp.drawTable = function (i) {
     else {
         holder = "<table>";
         holder += "<tr>" + "<td class='final'>" + "You Final Score: " + ComposerQuizApp.score() + "%" + "<br/> <br/> </td>" + "</tr>";
+        holder += "<tr>" + "<td class='final'>" + "Creat your own questions.  Click start to restart the quiz with your questions added to the bank." + "<br/> <br/> </td>" + "</tr>";
         holder += "<tr>" + "<td>" + "<button class='btn btn-primary btn-large' onclick='ComposerQuizApp.modal.show()'> Create Your Own Question </button>" + "</td>" + "</tr>";
         holder += "</table>";
     }
